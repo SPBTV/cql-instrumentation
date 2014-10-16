@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nikita@afanasenko.name"]
   spec.summary       = %q{CQL queries and durations logging for cql-rb and Rails}
   spec.homepage      = "https://github.com/spbtv/cql-instrumentation"
-  spec.license       = "MIT"
+  spec.license       = "Apache License, Version 2.0"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
